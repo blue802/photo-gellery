@@ -1,0 +1,11 @@
+.btn-upload {
+    font-size: 64px;
+    color: gray;
+    cursor: pointer;
+}
+
+form {
+    padding: 16px 0;
+    margin-bottom: 32px;
+    border-bottom: 2px solid #f0f0f0;
+}

@@ -1,0 +1,45 @@
+.image-grid {
+    width: 1440px;
+    margin: 0 auto;
+    columns: 4;
+    column-gap: 20px;
+}
+
+.image-grid .image-wrap {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    break-inside: avoid;
+    margin-bottom: 20px;
+    opacity: 0.9;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #ccc;
+}
+
+.image-grid .image-wrap img {
+    width: 100%;
+}
+
+@media (max-width: 1440px) {
+    .image-grid {
+        width: 100%;
+        columns: 3;
+    }
+}
+
+@media (max-width: 768px) {
+    .image-grid {
+        width: 100%;
+        columns: 2;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .image-grid {
+        width: 100%;
+        columns: 1;
+    }
+}
